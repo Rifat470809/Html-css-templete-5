@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	position: 0;
+	box-sizing: border-box;
+}
+.box-wrappear{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.content{
+	width: 100%;
+	height: 40px;
+	background: #55415f;
+}
+
+.content a{
+	color: #fff;
+	float: right;
+	text-decoration: none;
+	margin-right: 50px;
+	margin-top: 10px;
+	border-right: 2px solid #ffff;
+}
+
+.content a:hover{
+	background: #fff;
+	color: #333;
+	border: 1px solid #333;
+}
+/*-------------------------------------*/
+
+.row{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.box-1 {
+	float: left;
+}
+
+.logo{
+	width: 190px;
+	height: 60px;
+	padding: 10px;
+	margin-left: 150px;
+	margin-top: 12px;
+}
+
+
+.menu{
+	margin-top: 8px;
+
+}
+
+.menu ul{
+	padding: 10px;
+	list-style-type: none;	
+	font-size: 17px;
+
+}
+
+.menu ul li{
+		float: right;
+		border-bottom: 2px solid #ebebeb;	
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	margin-right: 15px;	
+	color: #333;
+	padding: 10px;
+	transition: all 2s ease;
+}
+
+.buttom{
+	border-bottom: 2px solid red;
+}
+.menu ul li a:hover{
+	background: #4c0563;
+	border: 1px solid #333;
+	color: #fff;
+	border-radius: 10px;
+
+}
+
+
+
+/*-------------------------------------*/
+
+.box-2{
+	width: 100%;
+	background: #ebebeb;
+	
+}
+
+.pic{
+	margin-top: 65px;
+	margin-left: 50px;
+}
+
+.content-2{
+	width: 50%;
+	height: 500px;	
+	float: right;
+	margin-right: 70px;
+
+}
+
+ .content-2 h2{
+	margin-top: 130px;	
+	font-size: 50px;
+	color: #333333;	
+}
+
+.content-2 p{
+	margin-top: 20px;
+	font-size: 30px;
+	color: #999999;
+}
+
+.content-2 a{
+	margin-top: 35px;
+	text-decoration: none;
+	border: 1px solid #333;
+	background: #55415f;
+	color: #fff;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+	transition: all 2s ease;
+}
+
+.content-2 a:hover{
+	background: green;
+}
+
+
+
+/*-------------------------------------*/
+
+
+.box-header{
+	width: 100%;
+	height: 300px;
+	background: #fff;
+	display: flex;
+}
+
+.box-content{
+	width: 33.33%;
+	text-align: center;
+	padding: 30px;
+}
+
+.box-content h2{
+	border-bottom: 1px solid #d7d7d7;
+	padding: 20px;
+	font-size: 28px;
+	color: #55415f;
+}
+
+.box-content p{
+	font-size: 20px;
+	margin-top: 20px;
+	color: #807d77;
+}
+
+/*-------------------------------------*/
+
+.box-3{
+	width: 100%;
+	background: #fff;
+}
+
+.box-3 h2 {
+	text-align: center;
+	padding: 40px;
+	font-size: 30px;
+	color: #727272;
+}
+
+/*-------------------------------------*/
+
+.box-header-2{
+	width: 100%;
+	background: #fff;
+	display: flex;
+	padding: 30px;
+	float: left;
+
+}
+
+.box-content-2{
+	width: 33.33%;
+	text-align: center;
+	padding: 30px;
+}
+
+.box-content-2 h2{
+	margin-bottom: 20px;
+	font-size: 25px;
+	margin-right: 20px;
+	color: #7f7d77;
+}
+
+.box-content-2 p{
+	margin-top: 20px;
+	font-size: 19px;
+	color: #807d77;
+}
+
+.box-content-2 a{
+	margin-top: 15px;
+	text-decoration: none;
+	color: #55415f;
+	display: block;
+	padding: 10px;
+	margin-right: 130px;
+}
+.box-content-2 a:hover{
+	color: green;
+}
+
+/*-------------------------------------*/
+
+.box-4{
+	width: 100%;
+	height: 350px;
+	background: #222222;
+	display: flex;
+	overflow: hidden;
+}
+
+.content-3{
+
+	width: 960px;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+	display: inline-block;
+
+}
+
+.content-3 h2{
+	font-size: 30px;
+}
+
+.content-3 h3{
+	margin-top: 20px;
+
+}
+
+.content-3 p{
+	margin-top: 20px;
+	float: left;
+}
+
+
+.content-3{
+	float: left;
+	text-align: left;
+}
+
+
+.content-3 input{
+	margin-top: 30px;
+	border: 1px solid #333;
+	background: #353535;
+	padding: 10px;
+	color: #ffff;
+}
+
+.content-3 a{
+	margin-top: 30px;
+	text-decoration: none;
+	border: 2px solid #333;
+	background: #9f81a9;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 10px;
+	transition: all 2s ease;
+}
+
+.content-3 a:hover{
+	background: #eee;
+	color: #333;
+}
+
+
+
+/*-------------------------------------*/
+
+
+.box-5{
+	width: 100%;
+	background: #202020;
+	overflow: hidden;
+	border: 1px solid 
+}
+
+.content-4{
+	float: left;
+}
+
+.content-4 h2{
+	margin-left: 40px;
+	margin-top: 5px;
+	color: #807d77;
+	padding: 10px;
+}
+
+.content-5{
+	float: right;
+}
+
+.content-5 h2{
+	margin-right: 40px;
+	margin-top: 5px;
+	color: #807d77;
+	padding: 10px;
+}
+
+
